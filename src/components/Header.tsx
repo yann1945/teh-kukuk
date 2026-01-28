@@ -7,10 +7,10 @@ import { ThemeToggle } from "./ThemeToggle";
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/about" },
-  { name: "Products", href: "/products" },
-  { name: "Testimonials", href: "/testimonials" },
-  { name: "Documentation", href: "/documentation" },
+  { name: "Tentang Kami", href: "/about" },
+  { name: "Produk", href: "/products" },
+  { name: "Testimoni", href: "/testimonials" },
+  { name: "Dokumentasi", href: "/documentation" },
 ];
 
 export const Header = () => {
@@ -69,7 +69,7 @@ export const Header = () => {
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <Button className="hidden md:flex" size="sm">
-              Shop Now
+              Belanja Sekarang
             </Button>
 
             {/* Mobile Menu Button */}
@@ -112,7 +112,7 @@ export const Header = () => {
                   </motion.div>
                 ))}
                 <Button className="mt-2 w-full" size="lg">
-                  Shop Now
+                  Belanja Sekarang
                 </Button>
               </div>
             </div>
