@@ -65,7 +65,7 @@ export const InfoSection = () => {
                     100%
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    Organic Certified
+                    Teh Murni
                   </div>
                 </div>
               </div>
@@ -80,22 +80,17 @@ export const InfoSection = () => {
             className="flex flex-col justify-center"
           >
             <span className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary">
-              Our Story
+              Cerita Kami
             </span>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-              From Mountain Peaks to{" "}
-              <span className="text-gradient">Your Cup</span>
+              Dari Pegunungan Sampai Ke{" "}
+              <span className="text-gradient">Gelas Mu</span>
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Teh Kukuk began its journey in the misty highlands where the finest
-              tea leaves have been cultivated for generations. Our commitment to
-              quality and tradition has made us a beloved choice for tea
-              connoisseurs worldwide.
+Es teh adalah salah satu minuman yang sangat populer di Indonesia karena rasanya yang segar, mudah diterima oleh semua kalangan, serta harganya yang terjangkau. Minuman ini dapat dinikmati kapan saja, baik saat cuaca panas maupun sebagai pendamping berbagai jenis makanan
             </p>
             <p className="mt-4 text-muted-foreground">
-              Every leaf is hand-picked at the perfect moment, then carefully
-              processed to preserve its natural flavors and health benefits. This
-              dedication to excellence is what sets Teh Kukuk apart.
+Melihat tingginya minat masyarakat terhadap minuman teh, Teh Kukuk hadir untuk menghadirkan berbagai varian seperti Milk Tea, Green Tea, dan Thai Tea dengan rasa yang nikmat dan kualitas yang terjaga. Kami berkomitmen untuk menyajikan minuman yang segar, bersih, dan cocok dinikmati oleh semua usia.
             </p>
 
             {/* Features */}
@@ -124,7 +119,7 @@ export const InfoSection = () => {
             </div>
 
             <Button asChild size="lg" className="mt-8 w-fit">
-              <Link to="/about">Learn More About Us</Link>
+              <Link to="/about">Melihat Tentang Kami</Link>
             </Button>
           </motion.div>
         </div>
