@@ -24,17 +24,15 @@ const footerLinks = {
     { name: "Documentation", href: "/documentation" },
   ],
   support: [
-    { name: "Contact Us", href: "/contact" },
-    { name: "FAQ", href: "/faq" },
-    { name: "Shipping", href: "/shipping" },
-    { name: "Returns", href: "/returns" },
+    { name: "Contact Us", href: "https://wa.me/6285117506904" },
+    { name: "FAQ", href: "/documentation" },
   ],
 };
 
 const socialLinks = [
-  { name: "WhatsApp", icon: MessageCircle, href: "#" },
-  { name: "TikTok", icon: TikTokIcon, href: "#" },
-  { name: "Instagram", icon: Instagram, href: "#" },
+  { name: "WhatsApp", icon: MessageCircle, href: "https://wa.me/6285117506904" },
+  { name: "TikTok", icon: TikTokIcon, href: "https://www.tiktok.com/@tehkukuk_" },
+  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/tehkukuk_" },
 ];
 
 export const Footer = () => {
@@ -66,9 +64,7 @@ export const Footer = () => {
               <span className="font-serif text-xl font-bold">Teh Kukuk</span>
             </Link>
             <p className="mt-4 text-sm text-background/70 leading-relaxed">
-              Experience the pure essence of natural tea. Hand-picked from the
-              finest gardens, Teh Kukuk brings you premium quality tea that
-              soothes your soul and delights your senses.
+Teh Kukuk menghadirkan berbagai pilihan minuman seperti Milk Tea, Green Tea, dan Thai Tea dengan rasa segar dan manis yang pas. Dibuat dari bahan pilihan untuk menemani waktu santaimu kapan saja.
             </p>
 
             {/* Social Links */}
@@ -124,9 +120,9 @@ export const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h4 className="mb-4 font-semibold">Stay Updated</h4>
+            <h4 className="mb-4 font-semibold">Tetap Update</h4>
             <p className="mb-4 text-sm text-background/70">
-              Subscribe to our newsletter for exclusive offers and tea tips.
+              Berlangganan newsletter kami untuk mendapatkan penawaran spesial dan tips seputar teh.
             </p>
             <div className="flex gap-2">
               <input
@@ -139,7 +135,7 @@ export const Footer = () => {
                 whileTap={{ scale: 0.98 }}
                 className="rounded-xl bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
               >
-                Join
+                Ikuti
               </motion.button>
             </div>
           </div>
@@ -148,16 +144,8 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-background/10 pt-8 sm:flex-row">
           <p className="text-sm text-background/50">
-            © 2025 Teh Kukuk. All rights reserved.
+            © 2026 Teh Kukuk. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-background/50">
-            <Link to="/privacy" className="hover:text-background">
-              Privacy Policy
-            </Link>
-            <Link to="/terms" className="hover:text-background">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
