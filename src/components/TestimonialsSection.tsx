@@ -5,47 +5,47 @@ import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Mitchell",
-    role: "Tea Enthusiast",
+    name: "Bu Yuyun",
+    role: "Guru Pemasaran",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah&backgroundColor=b6e3f4",
     review:
-      "The quality of Teh Kukuk is simply unmatched. Every morning feels like a spa experience with their jasmine green tea. Highly recommended!",
-    rating: 5,
+      "Tehnya sangat enak, dan yang paling saya sukai ialah Ice Greentea. Aku Menyukainya!",
+    rating: 4.3,
   },
   {
     id: 2,
-    name: "David Chen",
-    role: "Wellness Coach",
+    name: "Ambatukam",
+    role: "Influencer (Dreamybull)",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=david&backgroundColor=c0aede",
     review:
-      "I've tried countless tea brands, but Teh Kukuk stands out. Their matcha is ceremonial grade and absolutely divine. My clients love it!",
-    rating: 5,
+      "I am from amerika tinggal di jakarta, saya sangat merekomendasi Teh Kukuk.",
+    rating: 4.9,
   },
   {
     id: 3,
-    name: "Emma Thompson",
-    role: "Food Blogger",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emma&backgroundColor=ffd5dc",
-    review:
-      "The packaging is beautiful, the taste is exceptional, and the aroma fills my entire kitchen. This is what premium tea should be.",
+    name: "Om Baron",
+    role: "Customer Setia",
+    avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jude",
+      review:
+      "Rasa tehnya sangat manis seperti saya, apalagi Thaitea. Sukakk dehh >v<",
     rating: 5,
   },
   {
     id: 4,
-    name: "Michael Park",
-    role: "Restaurant Owner",
+    name: "Maharaja Paduka Fathian Nan Bijaksana",
+    role: "Ketua Teh Kukuk",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael&backgroundColor=d1d4f9",
     review:
-      "We serve Teh Kukuk exclusively at our restaurant. Our customers always compliment the exceptional quality of our tea selection.",
+      "Kita menyajikan teh dengan sepenuh hati dan kita menjamin kualitas teh kami untuk menyajikan kepada customer kita tersayang (uangnya).",
     rating: 5,
   },
   {
     id: 5,
-    name: "Lisa Wang",
-    role: "Yoga Instructor",
+    name: "Lil Neiga",
+    role: "Rapper UK",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=lisa&backgroundColor=ffdfbf",
     review:
-      "The chamomile tea helps me unwind after long sessions. It's become an essential part of my evening routine. Pure bliss!",
+      "Alright wassup!, gweh sanghat recomended this tea okey? Yoo i like a milktea what do you like?",
     rating: 5,
   },
 ];
