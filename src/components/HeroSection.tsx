@@ -54,12 +54,12 @@ Teh Kukuk menghadirkan berbagai pilihan minuman seperti Milk Tea, Green Tea, dan
             <div className="flex flex-wrap gap-4">
               <Button asChild variant="hero" size="xl">
                 <Link to="/about">
-                  About Us
+                  Tentang Kami
                   <ArrowRight size={18} />
                 </Link>
               </Button>
               <Button asChild variant="outline" size="xl">
-                <Link to="/products">Explore Products</Link>
+                <Link to="/products">Lihat Produk</Link>
               </Button>
             </div>
 
