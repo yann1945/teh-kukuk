@@ -8,18 +8,18 @@ import teaPlantation from "@/assets/tea-plantation.jpg";
 const features = [
   {
     icon: Leaf,
-    title: "Sustainable Farming",
-    description: "Our teas are grown using eco-friendly practices that protect the environment.",
+    title: "Bahan Berkualitas",
+    description: "Teh Kukuk dibuat dari bahan pilihan untuk menghasilkan rasa yang segar dan nikmat.",
   },
   {
     icon: Mountain,
-    title: "Highland Gardens",
-    description: "Sourced from pristine mountain regions with perfect growing conditions.",
+    title: "Rasa Favorit",
+    description: "Tersedia Milk Tea, Green Tea, dan Thai Tea yang disukai banyak kalangan.",
   },
   {
     icon: Heart,
-    title: "Handcrafted with Love",
-    description: "Every batch is carefully processed by skilled artisans with decades of experience.",
+    title: "Dibuat dengan Sepenuh Hati",
+    description: "Setiap minuman dibuat dengan perhatian agar kualitas dan rasa tetap terjaga.",
   },
 ];
 
@@ -65,7 +65,7 @@ export const InfoSection = () => {
                     100%
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    Teh Murni
+                    Teh Murni Pilihan
                   </div>
                 </div>
               </div>
