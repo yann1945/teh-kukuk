@@ -43,14 +43,12 @@ export const HeroSection = () => {
             </motion.div>
 
             <h1 className="mb-6 font-serif text-4xl font-bold leading-tight text-foreground sm:text-5xl lg:text-6xl xl:text-7xl">
-              Discover the{" "}
-              <span className="text-gradient">Pure Essence</span> of Natural Tea
+              Segarnya Teh{" "}
+                <span className="text-gradient">Di Setiap</span> Tegukan!!
             </h1>
 
             <p className="mb-8 max-w-lg text-lg text-muted-foreground">
-              Experience tranquility with every sip. Teh Kukuk brings you the
-              finest selection of hand-picked tea leaves, crafted with care and
-              tradition to deliver a moment of calm in your busy day.
+Teh Kukuk menghadirkan berbagai pilihan minuman seperti Milk Tea, Green Tea, dan Thai Tea dengan rasa segar dan manis yang pas. Dibuat dari bahan pilihan untuk menemani waktu santaimu kapan saja.
             </p>
 
             <div className="flex flex-wrap gap-4">
