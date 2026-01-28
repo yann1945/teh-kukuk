@@ -38,7 +38,7 @@ export const HeroSection = () => {
             >
               <Leaf size={16} className="text-primary" />
               <span className="text-sm font-medium text-secondary-foreground">
-                100% Natural & Fresh
+                100% Enak & Segar
               </span>
             </motion.div>
 
@@ -71,9 +71,9 @@ Teh Kukuk menghadirkan berbagai pilihan minuman seperti Milk Tea, Green Tea, dan
               className="mt-12 grid grid-cols-3 gap-8"
             >
               {[
-                { value: "50+", label: "Tea Varieties" },
-                { value: "10K+", label: "Happy Customers" },
-                { value: "25+", label: "Years Experience" },
+                { value: "3", label: "Macam Teh" },
+                { value: "50+", label: "Pelanggan Senang" },
+                { value: "2+", label: "Bulan Pengalaman" },
               ].map((stat, index) => (
                 <div key={index} className="text-center lg:text-left">
                   <div className="font-serif text-2xl font-bold text-foreground sm:text-3xl">
