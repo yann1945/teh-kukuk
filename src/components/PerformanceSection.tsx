@@ -2,10 +2,10 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const metrics = [
-  { label: "Freshness", value: 98, color: "bg-primary" },
-  { label: "Taste Quality", value: 95, color: "bg-tea-gold" },
+  { label: "Kesegaran", value: 98, color: "bg-primary" },
+  { label: "Rasa Kualitas", value: 95, color: "bg-tea-gold" },
   { label: "Aroma", value: 92, color: "bg-tea-medium" },
-  { label: "Purity", value: 99, color: "bg-primary" },
+  { label: "Kemurnian", value: 99, color: "bg-primary" },
 ];
 
 const ProgressBar = ({
@@ -59,28 +59,25 @@ export const PerformanceSection = () => {
             className="flex flex-col justify-center"
           >
             <span className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary">
-              Quality Assurance
+              Jaminan Kualitas
             </span>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-              Exceptional <span className="text-gradient">Quality</span> in Every Cup
+              Kualitas <span className="text-gradient">Luar Biasa</span> Di Setiap Cup
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              We take pride in delivering the highest quality tea products. Our
-              rigorous quality control process ensures that every batch meets our
-              exceptional standards for freshness, taste, and purity.
+Teh Kukuk hadir dengan komitmen untuk memberikan minuman yang berkualitas dan menyegarkan. Kami memilih bahan yang baik dan memastikan proses pembuatan dilakukan dengan rapi serta higienis. Setiap minuman diracik dengan perhatian agar rasa tetap seimbang dan nyaman dinikmati. 
+
             </p>
             <p className="mt-4 text-muted-foreground">
-              From the moment our tea leaves are harvested to when they reach your
-              cup, we maintain strict quality protocols that have been refined over
-              25 years of dedication to the craft.
+Kami percaya bahwa kualitas yang baik dapat memberikan pengalaman minum teh yang menyenangkan. Dengan semangat tersebut, Teh Kukuk terus berusaha menjadi teman minum yang cocok untuk berbagai aktivitas sehari-hari.
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-6">
               {[
-                { icon: "🌿", text: "Organic Certified" },
-                { icon: "🏆", text: "Award Winning" },
-                { icon: "♻️", text: "Sustainable" },
-                { icon: "✨", text: "Hand-Picked" },
+                { icon: "🍃", text: "Segar & Nikmat" },
+                { icon: "🍵", text: "Rasa Seimbang" },
+                { icon: "😊", text: "Cocok Untuk Semua" },
+                { icon: "⭐", text: "Kualitas Terjaga" },
               ].map((item, index) => (
                 <motion.div
                   key={index}
