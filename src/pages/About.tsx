@@ -9,33 +9,33 @@ import heroTea from "@/assets/hero-tea.jpg";
 const values = [
   {
     icon: Leaf,
-    title: "Sustainability",
-    description: "We prioritize eco-friendly practices in every step of our production process.",
+    title: "Bahan Berkualitas",
+    description: "Kami menggunakan bahan segar agar setiap gelas Teh Kukuk terasa nikmat dan menyegarkan.",
   },
   {
     icon: Users,
-    title: "Community",
-    description: "Supporting local farmers and their families through fair trade practices.",
+    title: "Untuk Semua",
+    description: "Minuman kami cocok dinikmati semua kalangan, mudah dipesan, dan pas untuk teman santai.",
   },
   {
     icon: Award,
-    title: "Excellence",
-    description: "Unwavering commitment to delivering the highest quality tea products.",
+    title: "Dibuat dengan Hati",
+    description: "Setiap gelas diracik dengan perhatian agar rasa tetap konsisten dan enak.",
   },
   {
     icon: Globe,
-    title: "Heritage",
-    description: "Preserving traditional tea-making methods passed down through generations.",
+    title: "Proyek Sekolah",
+    description: "Dirancang sebagai tugas kreatif, tapi tetap rapi, profesional, dan menyenangkan.",
   },
 ];
 
+
 const timeline = [
-  { year: "1999", event: "Founded in the highlands with a vision for premium tea" },
-  { year: "2005", event: "Expanded to serve international markets" },
-  { year: "2012", event: "Achieved organic certification for all products" },
-  { year: "2018", event: "Launched sustainable packaging initiative" },
-  { year: "2024", event: "Reached 10,000+ happy customers worldwide" },
+  { year: "Jan 2026", event: "Ide Teh Kukuk tercetus sebagai proyek tugas sekolah" },
+  { year: "Jan 2026", event: "Mulai menyiapkan bahan dan desain minuman" },
+  { year: "Feb 2026", event: "Penjualan resmi Teh Kukuk dimulai" },
 ];
+
 
 const About = () => {
   const heroRef = useRef(null);
@@ -62,14 +62,14 @@ const About = () => {
             className="text-center max-w-3xl mx-auto"
           >
             <span className="mb-4 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
-              Our Story
+              Cerita Kami
             </span>
             <h1 className="font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-6xl">
-              About <span className="text-gradient">Teh Kukuk</span>
+              Tentang <span className="text-gradient">Teh Kukuk</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground">
-              Crafting moments of tranquility since 1999. We believe every cup of tea
-              should be an experience worth savoring.
+Teh Kukuk hadir untuk menghadirkan minuman teh yang segar dan nikmat bagi semua kalangan. 
+  Dimulai sebagai proyek tugas sekolah, kami ingin setiap gelas Teh Kukuk menjadi teman santai yang menyenangkan.
             </p>
           </motion.div>
         </div>
@@ -99,19 +99,16 @@ const About = () => {
               className="flex flex-col justify-center"
             >
               <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-                Our Journey
+                Perjalanan Kami
               </h2>
               <p className="mt-6 text-muted-foreground leading-relaxed">
-                Teh Kukuk was born from a simple passion: to share the finest teas with
-                the world. Our founder, inspired by the lush tea gardens of the highlands,
-                set out to create a brand that would honor traditional tea-making while
-                embracing modern quality standards.
+  Teh Kukuk lahir dari ide sederhana: ingin membuat minuman teh yang segar dan nikmat 
+  untuk teman-teman sekolah. Ide ini muncul minggu lalu sebagai proyek tugas kreatif.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Today, we work directly with farmers who share our commitment to
-                excellence. Every leaf is carefully selected, processed with care, and
-                delivered with love. Our journey continues as we explore new ways to
-                bring you the perfect cup of tea.
+  Saat ini, kami sedang menyiapkan bahan, resep, dan kemasan agar setiap gelas Teh Kukuk 
+  bisa dinikmati dengan rasa yang konsisten. Penjualan resmi akan dimulai bulan Februari, 
+  dan kami berharap minuman ini bisa menjadi teman santai yang menyenangkan bagi semua.
               </p>
             </motion.div>
           </div>
@@ -128,7 +125,7 @@ const About = () => {
             className="text-center mb-16"
           >
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-              Our <span className="text-gradient">Values</span>
+              Nilai <span className="text-gradient">Kami</span>
             </h2>
             <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
               The principles that guide everything we do
@@ -169,7 +166,7 @@ const About = () => {
             className="text-center mb-16"
           >
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-              Our <span className="text-gradient">Milestones</span>
+              Pencapaian <span className="text-gradient">Kami</span>
             </h2>
           </motion.div>
 
