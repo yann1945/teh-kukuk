@@ -48,6 +48,15 @@ const testimonials = [
       "Alright wassup!, gweh sanghat recomended this tea okey? Yoo i like a milktea what do you like?",
     rating: 5,
   },
+  {
+    id: 6,
+    name: "IShowSpeed",
+    role: "Streamer",
+    avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jameson",
+    review:
+      "Woof Woof!! This the so CRAZYY!!!... i like indonesian tea, w chat 👑",
+    rating: 4.8,
+  },
 ];
 
 export const TestimonialsSection = () => {
