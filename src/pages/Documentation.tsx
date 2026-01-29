@@ -7,101 +7,103 @@ import { Footer } from "@/components/Footer";
 const guides = [
   {
     icon: ThermometerSun,
-    title: "Water Temperature",
-    description: "Learn the ideal water temperatures for different tea types to achieve the perfect brew.",
+    title: "Suhu Air",
+    description: "Pelajari suhu air yang ideal untuk setiap jenis teh agar menghasilkan rasa terbaik.",
     content: `
-      Different teas require different water temperatures:
-      
-      • Green Tea: 70-80°C (158-176°F) - Too hot water can make green tea bitter
-      • White Tea: 75-85°C (167-185°F) - Delicate leaves need gentle heat
-      • Oolong Tea: 85-95°C (185-203°F) - Semi-oxidized teas are more forgiving
-      • Black Tea: 95-100°C (203-212°F) - Full oxidation can handle boiling water
-      • Herbal Tea: 100°C (212°F) - Most herbs benefit from boiling water
-      • Matcha: 70-80°C (158-176°F) - Whisking with cooler water prevents bitterness
+Setiap jenis teh membutuhkan suhu air yang berbeda:
+
+• Greentea: 70–80°C — Air terlalu panas bisa membuat rasa pahit
+• Thaitea: 75–85°C — Daun lembut perlu panas ringan
+• Milktea: 67-75°C — Rasa Menjadi Lebih Kuat
+
     `,
   },
   {
     icon: Timer,
-    title: "Steeping Time",
-    description: "Master the art of timing to extract the best flavors from your tea leaves.",
+    title: "Waktu Penyeduhan",
+    description: "Kuasai waktu penyeduhan untuk mendapatkan rasa teh terbaik.",
     content: `
-      Proper steeping times for optimal flavor:
-      
-      • Green Tea: 1-3 minutes - Start short, adjust to taste
-      • White Tea: 2-5 minutes - Can steep longer without bitterness
-      • Oolong Tea: 3-5 minutes - Multiple infusions recommended
-      • Black Tea: 3-5 minutes - Longer steeping for stronger flavor
-      • Herbal Tea: 5-7 minutes - Herbs release flavor slowly
-      • Matcha: Whisk for 15-30 seconds - No steeping needed
-      
-      Pro tip: You can re-steep quality loose leaf teas 2-3 times!
+Waktu seduh yang disarankan:
+
+• Greentea: 1–3 menit
+• Thaitea: 2–4 menit
+• Milktea: 2-3 menit
+
+Tips: Teh daun berkualitas bisa diseduh ulang hingga 2–3 kali.
+
     `,
   },
   {
     icon: Leaf,
-    title: "Tea Leaf Ratios",
-    description: "Get the perfect strength with our recommended tea-to-water ratios.",
+    title: "Takaran Daun Teh",
+    description: "Gunakan perbandingan teh dan air yang tepat untuk rasa seimbang.",
     content: `
-      Recommended ratios for the perfect cup:
-      
-      • Loose Leaf Tea: 1 teaspoon (2-3g) per 200ml water
-      • Matcha: 1-2g (½-1 tsp) per 60-80ml water
-      • Strong Brew: Add 50% more tea leaves
-      • Light Brew: Use slightly less tea or shorter steep time
-      
-      For cold brew: Double the amount of tea and steep 6-12 hours in the refrigerator.
+Takaran ideal:
+
+• Teh daun: 1 sendok teh (2–3g) per 200ml air
+• Matcha: 1–2g per 60–80ml air
+• Rasa kuat: Tambahkan lebih banyak daun teh
+• Rasa ringan: Kurangi daun atau waktu seduh
+
+Cold brew:
+Gunakan dua kali lipat teh dan simpan di kulkas 6–12 jam.
     `,
   },
   {
     icon: Coffee,
-    title: "Brewing Methods",
-    description: "Explore different brewing techniques from traditional to modern approaches.",
+      title: "Metode Penyeduhan",
+    description: "Jelajahi berbagai teknik penyeduhan, dari tradisional hingga modern.",
     content: `
-      Popular brewing methods:
-      
-      1. Western Style
-         - Large teapot or mug
-         - Single steep, longer duration
-         - Great for casual drinking
-      
-      2. Gongfu Style
-         - Small teapot or gaiwan
-         - Multiple short steeps
-         - Intensifies flavor exploration
-      
-      3. Cold Brew
-         - Room temperature or cold water
-         - 6-12 hours steeping
-         - Smooth, less bitter taste
-      
-      4. Matcha Ceremony
-         - Sift matcha into bowl
-         - Add water, whisk vigorously
-         - Creates frothy, smooth texture
+Metode penyeduhan populer:
+
+1. Gaya Barat
+   - Teko besar atau gelas
+   - Sekali seduh
+   - Cocok untuk minum santai
+
+2. Gaya Gongfu
+   - Teko kecil
+   - Beberapa kali seduh
+   - Rasa lebih mendalam
+
+3. Cold Brew
+   - Air dingin
+   - 6–12 jam
+   - Lebih halus dan tidak pahit
+
+4. Matcha
+   - Ayak bubuk matcha
+   - Tambahkan air
+   - Kocok hingga berbusa
     `,
   },
 ];
 
 const faqs = [
   {
-    question: "How should I store my tea?",
-    answer: "Store tea in an airtight container away from light, heat, and moisture. A cool, dark pantry is ideal. Avoid storing near strong-smelling foods as tea can absorb odors.",
+    question: "Apa saja varian minuman yang dijual Teh Kukuk?",
+    answer:
+      "Teh Kukuk menyediakan tiga varian utama, yaitu Milk Tea, Green Tea, dan Thai Tea. Semua dibuat dengan rasa yang segar dan cocok diminum kapan saja.",
   },
   {
-    question: "How long does tea stay fresh?",
-    answer: "Properly stored loose leaf tea can stay fresh for 6-12 months. Green and white teas are best consumed within 6 months, while black and oolong teas can last up to a year. Herbal teas can last 12-24 months.",
+    question: "Apakah minuman Teh Kukuk dibuat setiap hari?",
+    answer:
+      "Ya, minuman Teh Kukuk dibuat setiap hari agar tetap segar dan memiliki rasa yang enak saat diminum.",
   },
   {
-    question: "Can I drink tea on an empty stomach?",
-    answer: "It's generally recommended to drink tea after meals, especially for green tea which can be acidic. Herbal teas like chamomile or ginger are gentler on an empty stomach.",
+    question: "Apakah Teh Kukuk menggunakan bahan berkualitas?",
+    answer:
+      "Kami menggunakan bahan pilihan yang mudah didapat namun tetap memperhatikan rasa dan kebersihan dalam proses pembuatannya.",
   },
   {
-    question: "What's the difference between loose leaf and tea bags?",
-    answer: "Loose leaf tea typically offers superior quality, fuller flavor, and can be re-steeped. Tea bags are convenient but often contain smaller, broken leaves (fannings or dust) that may have less flavor complexity.",
+    question: "Apakah minuman Teh Kukuk aman dikonsumsi?",
+    answer:
+      "Ya, Teh Kukuk dibuat dengan bahan yang aman dikonsumsi dan proses pembuatan yang bersih sesuai kemampuan usaha sekolah.",
   },
   {
-    question: "How much caffeine is in tea?",
-    answer: "Caffeine content varies: Black tea has 40-70mg per cup, green tea has 25-45mg, white tea has 15-30mg, and herbal teas are typically caffeine-free. Matcha contains 35-70mg per serving.",
+    question: "Apakah Teh Kukuk bisa dipesan untuk acara?",
+    answer:
+      "Untuk saat ini, Teh Kukuk melayani pemesanan dalam jumlah kecil sesuai kebutuhan tugas sekolah.",
   },
 ];
 
@@ -129,10 +131,10 @@ const Documentation = () => {
               </div>
             </div>
             <h1 className="font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-6xl">
-              Tea <span className="text-gradient">Documentation</span>
+              Tea <span className="text-gradient">Dokumentasi</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Everything you need to know about brewing the perfect cup of tea
+              Semua yang perlu kamu tahu tentang minuman teh favoritmu
             </p>
           </motion.div>
         </div>
@@ -148,10 +150,10 @@ const Documentation = () => {
             className="text-center mb-12"
           >
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-              Brewing <span className="text-gradient">Guides</span>
+              Panduan <span className="text-gradient">Penyeduhan</span>
             </h2>
             <p className="mt-4 text-muted-foreground">
-              Master the fundamentals of tea preparation
+              Pelajari dasar pembuatan minuman teh
             </p>
           </motion.div>
 
@@ -224,7 +226,7 @@ const Documentation = () => {
               </div>
             </div>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl">
-              Frequently Asked <span className="text-gradient">Questions</span>
+              Pertanyaan Yang sering <span className="text-gradient">Ditanyakan</span>
             </h2>
           </motion.div>
 
