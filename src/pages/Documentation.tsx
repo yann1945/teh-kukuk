@@ -131,7 +131,7 @@ const Documentation = () => {
               </div>
             </div>
             <h1 className="font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-6xl">
-              Tea <span className="text-gradient">Dokumentasi</span>
+              Dokumentasi <span className="text-gradient">Tentang Teh</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
               Semua yang perlu kamu tahu tentang minuman teh favoritmu
