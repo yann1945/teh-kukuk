@@ -15,52 +15,39 @@ import product6 from "@/assets/product-6.jpg";
 const products = [
   {
     id: 1,
-    name: "Classic Green Tea",
-    description: "Pure and refreshing green tea leaves harvested at peak freshness",
-    price: 24.99,
-    category: "Green Tea",
+    name: "Ice Green Tea",
+    description: "Minuman green tea dingin dengan rasa segar dan ringan.",
+    price: 7000,
     image: product1,
   },
   {
     id: 2,
-    name: "Jasmine Blossom",
-    description: "Delicate jasmine-infused green tea with floral notes",
-    price: 29.99,
-    category: "Green Tea",
+    name: "Ice Thai Tea",
+    description: "Thai tea dingin dengan rasa manis dan aroma khas.",
+    price: 7000,
     image: product2,
   },
   {
     id: 3,
-    name: "Premium Matcha",
-    description: "Ceremonial grade matcha powder from Japan",
-    price: 39.99,
-    category: "Matcha",
+    name: "Ice Milk Tea",
+    description: "Perpaduan teh dan susu dengan rasa lembut dan nikmat.",
+    price: 7000,
     image: product3,
   },
   {
     id: 4,
-    name: "Oolong Selection",
-    description: "Traditional oolong with rich, complex flavor profile",
-    price: 34.99,
-    category: "Oolong",
+    name: "Hot Green Tea",
+    description: "Green tea hangat yang nyaman diminum kapan saja.",
+    price: 5000,
     image: product4,
   },
   {
     id: 5,
-    name: "Chamomile Dreams",
-    description: "Soothing herbal blend perfect for relaxation",
-    price: 22.99,
-    category: "Herbal",
+    name: "Hot Thai Tea",
+    description: "Thai tea hangat dengan rasa manis yang pas.",
+    price: 5000,
     image: product5,
-  },
-  {
-    id: 6,
-    name: "Earl Grey Premium",
-    description: "Classic bergamot-infused black tea",
-    price: 27.99,
-    category: "Black Tea",
-    image: product6,
-  },
+  }
 ];
 
 const categories = ["All", "Green Tea", "Black Tea", "Oolong", "Matcha", "Herbal"];
@@ -90,10 +77,10 @@ const Products = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-6xl">
-              Our <span className="text-gradient">Products</span>
+              Our <span className="text-gradient">Produk</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore our curated collection of premium teas from around the world
+              Jelajahi pilihan minuman favorit Teh Kukuk yang segar dan nikmat.
             </p>
           </motion.div>
         </div>
@@ -108,7 +95,7 @@ const Products = () => {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" size={18} />
               <input
                 type="text"
-                placeholder="Search products..."
+                placeholder="Cari Produk..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full sm:w-64 rounded-xl bg-secondary px-10 py-3 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
@@ -180,7 +167,7 @@ const Products = () => {
                       </span>
                       <Button size="sm" className="gap-2">
                         <ShoppingBag size={16} />
-                        Add to Cart
+                        Keranjang
                       </Button>
                     </div>
                   </div>
@@ -191,7 +178,7 @@ const Products = () => {
 
           {filteredProducts.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-muted-foreground">No products found matching your criteria.</p>
+              <p className="text-muted-foreground">Tidak ada produk</p>
             </div>
           )}
         </div>
