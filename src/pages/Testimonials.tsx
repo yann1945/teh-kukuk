@@ -7,57 +7,57 @@ import { Footer } from "@/components/Footer";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Mitchell",
-    role: "Tea Enthusiast",
+    name: "Bu Yuyun",
+    role: "Guru Pemasaran",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah&backgroundColor=b6e3f4",
     review:
-      "The quality of Teh Kukuk is simply unmatched. Every morning feels like a spa experience with their jasmine green tea. The aroma alone is worth the price. I've tried many brands over the years, but nothing compares to the freshness and depth of flavor I get from Teh Kukuk.",
-    rating: 5,
+      "Tehnya sangat enak, dan yang paling saya sukai ialah Ice Greentea. Aku Menyukainya!",
+    rating: 4.3,
   },
   {
     id: 2,
-    name: "David Chen",
-    role: "Wellness Coach",
+    name: "Ambatukam",
+    role: "Influencer (Dreamybull)",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=david&backgroundColor=c0aede",
     review:
-      "I've tried countless tea brands, but Teh Kukuk stands out. Their matcha is ceremonial grade and absolutely divine. My clients love it! I recommend it to everyone who wants to start their wellness journey with quality products.",
-    rating: 5,
+      "I am from amerika tinggal di jakarta, saya sangat merekomendasi Teh Kukuk.",
+    rating: 4.9,
   },
   {
     id: 3,
-    name: "Emma Thompson",
-    role: "Food Blogger",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emma&backgroundColor=ffd5dc",
-    review:
-      "The packaging is beautiful, the taste is exceptional, and the aroma fills my entire kitchen. This is what premium tea should be. I've featured Teh Kukuk on my blog multiple times because my readers always ask about it.",
+    name: "Om Baron",
+    role: "Customer Setia",
+    avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jude",
+      review:
+      "Rasa tehnya sangat manis seperti saya, apalagi Thaitea. Sukakk dehh >v<",
     rating: 5,
   },
   {
     id: 4,
-    name: "Michael Park",
-    role: "Restaurant Owner",
+    name: "Maharaja Paduka Fathian Nan Bijaksana",
+    role: "Ketua Teh Kukuk",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael&backgroundColor=d1d4f9",
     review:
-      "We serve Teh Kukuk exclusively at our restaurant. Our customers always compliment the exceptional quality of our tea selection. It's become a signature part of our dining experience and sets us apart from competitors.",
+      "Kita menyajikan teh dengan sepenuh hati dan kita menjamin kualitas teh kami untuk menyajikan kepada customer kita tersayang (uangnya).",
     rating: 5,
   },
   {
     id: 5,
-    name: "Lisa Wang",
-    role: "Yoga Instructor",
+    name: "Lil Neiga",
+    role: "Rapper UK",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=lisa&backgroundColor=ffdfbf",
     review:
-      "The chamomile tea helps me unwind after long sessions. It's become an essential part of my evening routine. I also serve it during my meditation classes and my students absolutely love the calming effect.",
+      "Alright wassup!, gweh sanghat recomended this tea okey? Yoo i like a milktea what do you like?",
     rating: 5,
   },
   {
     id: 6,
-    name: "James Wilson",
-    role: "Tea Collector",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=james&backgroundColor=c0e3c4",
+    name: "IShowSpeed",
+    role: "Streamer",
+    avatar: "https://api.dicebear.com/9.x/avataaars/svg?seed=Jameson",
     review:
-      "As someone who has collected teas from around the world, I can say with confidence that Teh Kukuk offers some of the finest loose-leaf teas I've ever tasted. Their oolong selection is particularly impressive.",
-    rating: 5,
+      "Woof Woof!! This the so CRAZYY!!!... i like indonesian tea, w chat 👑",
+    rating: 4.8,
   },
 ];
 
@@ -78,10 +78,10 @@ const Testimonials = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="font-serif text-4xl font-bold text-foreground sm:text-5xl lg:text-6xl">
-              Customer <span className="text-gradient">Stories</span>
+              Pesan <span className="text-gradient">Customer</span>
             </h1>
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Hear from our community of tea lovers who have made Teh Kukuk part of their daily ritual
+              Dengarkan cerita dari pelanggan yang sudah mencoba Teh Kukuk
             </p>
           </motion.div>
         </div>
