@@ -17,6 +17,7 @@ const products = [
     name: "Ice Green Tea",
     description: "Minuman green tea dingin dengan rasa segar dan ringan.",
     price: "7.000",
+    category: "Siap Saji",
     image: product1,
   },
   {
@@ -24,6 +25,7 @@ const products = [
     name: "Ice Thai Tea",
     description: "Thai tea dingin dengan rasa manis dan aroma khas.",
     price: "7.000",
+    category: "Siap Saji",
     image: product2,
   },
   {
@@ -31,25 +33,28 @@ const products = [
     name: "Ice Milk Tea",
     description: "Perpaduan teh dan susu dengan rasa lembut dan nikmat.",
     price: "7.000",
+    category: "Siap Saji",
     image: product3,
   },
   {
     id: 4,
-    name: "Teh Green Tea",
+    name: "Teh Bubuk Green",
     description: "Green tea hangat yang nyaman diminum kapan saja.",
     price: "50.000",
+    category: "Teh Bubuk",
     image: product4,
   },
   {
     id: 5,
-    name: "Teh Thai Tea",
+    name: "Teh Bubuk Thai",
     description: "Thai tea hangat dengan rasa manis yang pas.",
     price: "50.000",
+    category: "Teh Bubuk",
     image: product5,
   }
 ];
 
-const categories = ["All", "Teh", "Es"];
+const categories = ["All", "Teh Bubuk", "Siap Saji"];
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState("All");
