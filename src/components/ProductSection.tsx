@@ -33,14 +33,14 @@ const products = [
   },
   {
     id: 4,
-    name: "Teh Green Tea",
+    name: "Teh Bubuk Green",
     description: "Green tea hangat yang nyaman diminum kapan saja.",
     price: "50.000",
     image: product4,
   },
   {
     id: 5,
-    name: "Teh Thai Tea",
+    name: "Teh Bubuk Thai",
     description: "Thai tea hangat dengan rasa manis yang pas.",
     price: "50.000",
     image: product5,
