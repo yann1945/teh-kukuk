@@ -76,13 +76,13 @@ export const TestimonialsSection = () => {
           className="mb-12 text-center"
         >
           <span className="mb-4 inline-block text-sm font-semibold uppercase tracking-wider text-primary">
-            Testimonials
+            Testimoni
           </span>
           <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-            What Our <span className="text-gradient">Customers</span> Say
+            Apa Yang Dikatakan Oleh <span className="text-gradient">Pelanggan</span> Kepada Kami
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Join thousands of tea lovers who have made Teh Kukuk their daily ritual
+            Ribuan pecinta teh telah merasakan kenikmatan Teh Kukuk dalam keseharian mereka.
           </p>
         </motion.div>
 
