@@ -74,10 +74,10 @@ export const ProductSection = () => {
         >
           <div>
             <h2 className="font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
-              Our Premium <span className="text-gradient">Collection</span>
+              Produk Dari <span className="text-gradient">Kami</span>
             </h2>
             <p className="mt-3 text-muted-foreground">
-              Hand-picked teas from the finest gardens around the world
+              Teh pilihan yang diracik dari bahan berkualitas untuk rasa yang segar.
             </p>
           </div>
 
