@@ -49,7 +49,7 @@ const products = [
   }
 ];
 
-const categories = ["All", "Green Tea", "Black Tea", "Oolong", "Matcha", "Herbal"];
+const categories = ["All", "Teh", "Es"];
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState("All");
