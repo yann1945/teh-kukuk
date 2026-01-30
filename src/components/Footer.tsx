@@ -22,6 +22,7 @@ const footerLinks = {
     { name: "Products", href: "/products" },
     { name: "Testimonials", href: "/testimonials" },
     { name: "Documentation", href: "/documentation" },
+    { name: "Repository", href: "https://github.com/yann1945/teh-kukuk" },
   ],
   support: [
     { name: "Contact Us", href: "https://wa.me/6285117506904" },
