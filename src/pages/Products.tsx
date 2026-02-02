@@ -167,7 +167,7 @@ const Products = () => {
 
                     <div className="mt-4 flex items-center justify-between">
                       <span className="font-serif text-2xl font-bold text-primary">
-                        Rp.{product.price}
+                        Rp. {product.price}
                       </span>
                       <Button size="sm" className="gap-2">
                         <ShoppingBag size={16} />
