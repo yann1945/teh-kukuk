@@ -97,10 +97,10 @@ const Testimonials = () => {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
           >
             {[
-              { value: "10,000+", label: "Happy Customers" },
-              { value: "4.9", label: "Average Rating" },
-              { value: "50+", label: "Countries" },
-              { value: "25+", label: "Years Experience" },
+              { value: "50+", label: "Pelanggan Senang" },
+              { value: "4.9", label: "Rata - Rata Rating" },
+              { value: "3", label: "Rasa Teh" },
+              { value: "25+", label: "Bulan Pengalaman" },
             ].map((stat, index) => (
               <div key={index}>
                 <div className="font-serif text-3xl font-bold text-foreground">
