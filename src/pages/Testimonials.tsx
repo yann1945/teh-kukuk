@@ -83,6 +83,14 @@ const Testimonials = () => {
             <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
               Dengarkan cerita dari pelanggan yang sudah mencoba Teh Kukuk
             </p>
+            <a
+              href="https://forms.gle/xHZ7RLjom4276Vpa6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:bg-primary/90 hover:scale-105"
+            >
+              Tambah Testimoni
+            </a>
           </motion.div>
         </div>
       </section>
