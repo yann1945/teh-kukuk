@@ -160,9 +160,15 @@ const Products = () => {
                       <span className="font-serif text-2xl font-bold text-primary">
                         Rp. {product.price}
                       </span>
-                      <Button size="sm" className="gap-2">
-                        <ShoppingBag size={16} />
-                        Keranjang
+                      <Button size="sm" className="gap-2" asChild>
+                        <a
+                          href={`https://wa.me/6285117506904?text=${encodeURIComponent(`Halo Kakkk!.... Aku mau beli teh kukuknya dong yang ${product.name}`)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <ShoppingBag size={16} />
+                          Keranjang
+                        </a>
                       </Button>
                     </div>
                   </div>
