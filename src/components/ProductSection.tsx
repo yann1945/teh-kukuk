@@ -27,7 +27,7 @@ const products = [
     id: 3,
     name: "Ice Milk Tea",
     description: "Perpaduan teh dan susu dengan rasa lembut dan nikmat.",
-    price: "7.000",
+    price: "5.000",
     image: product3,
   },
   {
