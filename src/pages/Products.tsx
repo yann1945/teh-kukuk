@@ -45,7 +45,7 @@ const products = [
   }
 ];
 
-const categories = ["All", "Teh Bubuk", "Siap Saji"];
+const categories = ["All", "Siap Saji"];
 
 const Products = () => {
   const [activeCategory, setActiveCategory] = useState("All");
