@@ -15,7 +15,7 @@ const products = [
     id: 1,
     name: "Ice Green Tea",
     description: "Minuman green tea dingin dengan rasa segar dan ringan.",
-    price: "7.000",
+    price: "5.000",
     category: "Siap Saji",
     image: product1,
   },
