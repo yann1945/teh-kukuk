@@ -71,7 +71,7 @@ Teh Kukuk menghadirkan berbagai pilihan minuman seperti Milk Tea, Green Tea, dan
               className="mt-12 grid grid-cols-3 gap-8"
             >
               {[
-                { value: "3", label: "Macam Teh" },
+                { value: "4", label: "Macam Teh" },
                 { value: "50+", label: "Pelanggan Senang" },
                 { value: "2+", label: "Bulan Pengalaman" },
               ].map((stat, index) => (

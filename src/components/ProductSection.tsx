@@ -6,8 +6,7 @@ import { Button } from "@/components/ui/button";
 import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
-import product4 from "@/assets/product-4.jpg";
-import product5 from "@/assets/product-5.jpg";
+import productLemonTea from "@/assets/product-lemon-tea.jpg";
 
 const products = [
   {
@@ -33,17 +32,10 @@ const products = [
   },
   {
     id: 4,
-    name: "Teh Bubuk Green",
-    description: "Green tea hangat yang nyaman diminum kapan saja.",
-    price: "50.000",
-    image: product4,
-  },
-  {
-    id: 5,
-    name: "Teh Bubuk Thai",
-    description: "Thai tea hangat dengan rasa manis yang pas.",
-    price: "50.000",
-    image: product5,
+    name: "Ice Lemon Tea",
+    description: "Teh lemon dingin dengan rasa asam segar yang menyegarkan.",
+    price: "5.000",
+    image: productLemonTea,
   }
 ];
 
