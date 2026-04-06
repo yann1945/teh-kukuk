@@ -23,7 +23,7 @@ const products = [
     id: 2,
     name: "Ice Thai Tea",
     description: "Thai tea dingin dengan rasa manis dan aroma khas.",
-    price: "7.000",
+    price: "5.000",
     category: "Siap Saji",
     image: product2,
   },
